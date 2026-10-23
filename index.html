@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Shixuan Zhou at South China University of Technology. Research in automated driving testing and optimization, feature selection, and pattern recognition.">
+  <link rel="canonical" href="https://zzhousx.github.io/">
+  <title>Shixuan Zhou | Academic Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="profile.js" defer></script>
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="header">
+    <nav aria-label="Main navigation" data-i18n-aria="navigation">
+      <a href="#about" class="active" aria-current="location" data-i18n="home">Home</a>
+      <a href="#publications" data-i18n="publications">Publications</a>
+      <a href="#experience" hidden data-i18n="experience">Experience</a>
+      <a href="#patents" data-i18n="patents">Patents</a>
+      <a href="#awards" data-i18n="awardsNav">Awards</a>
+      <a href="#contact" data-i18n="contact">Contact</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language">
+      <button type="button" data-language="en" aria-pressed="true" lang="en">English</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-language="zh" aria-pressed="false" lang="zh-CN">中文</button>
+    </div>
+  </header>
+  <main id="main">
+    <section id="about" class="section about" aria-labelledby="name">
+      <div id="portrait" class="portrait" hidden></div>
+      <h1 id="name">Shixuan Zhou</h1>
+      <div class="affiliation-block">
+        <p id="role">School of Software Engineering</p>
+        <p id="affiliation">South China University of Technology</p>
+        <p id="location">Guangzhou, China</p>
+      </div>
+      <div class="profile-links">
+        <div id="social" class="social"></div>
+        <a id="cv" hidden target="_blank" rel="noopener" data-i18n="cv">Curriculum vitae</a>
+      </div>
+      <p id="intro" class="intro"></p>
+    </section>
+    <section id="news" class="section" aria-labelledby="news-heading">
+      <h2 id="news-heading" data-i18n="news">News</h2>
+      <div id="news-list"></div>
+    </section>
+    <section id="publications" class="section" aria-labelledby="publications-heading">
+      <h2 id="publications-heading" data-i18n="selectedPublications">Selected Publications</h2>
+      <div class="pub-tools">
+        <div class="filters" aria-label="Filter publications by type" id="filters" data-i18n-aria="filterLabel">
+          <button type="button" class="selected" data-filter="all" aria-pressed="true" data-i18n="all">All</button>
+          <button type="button" data-filter="journal" aria-pressed="false" data-i18n="journals">Journal articles</button>
+          <button type="button" data-filter="conference" aria-pressed="false" data-i18n="conferences">Conference papers</button>
+        </div>
+        <label class="search">
+          <span class="sr-only" data-i18n="search">Search publications</span>
+          <input id="search" type="search" aria-label="Search publications" placeholder="Search publications" data-i18n-aria="search" data-i18n-placeholder="search">
+        </label>
+      </div>
+      <p class="correspondence-note" data-i18n="corresponding">* Corresponding author.</p>
+      <div id="publication-list" aria-live="polite"></div>
+    </section>
+    <section id="experience" class="section" hidden aria-labelledby="experience-heading">
+      <h2 id="experience-heading" data-i18n="education">Education and Experience</h2>
+      <div id="education-list"></div>
+    </section>
+    <section id="service" class="section" hidden aria-labelledby="service-heading">
+      <h2 id="service-heading" data-i18n="service">Academic Service</h2>
+      <div id="service-list"></div>
+    </section>
+    <section id="patents" class="section" aria-labelledby="patents-heading">
+      <h2 id="patents-heading" data-i18n="patents">Patents</h2>
+      <div id="patent-list"></div>
+    </section>
+    <section id="awards" class="section" aria-labelledby="awards-heading">
+      <h2 id="awards-heading" data-i18n="awards">Honors and Awards</h2>
+      <div id="award-list"></div>
+    </section>
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" data-i18n="contact">Contact</h2>
+      <p id="contact-affiliation">School of Software Engineering<br>South China University of Technology<br>Guangzhou, China</p>
+      <p class="email-row"><span data-i18n="email">Email:</span> <span id="contact-email"></span></p>
+    </section>
+    <footer>
+      <span>© <span id="year"></span> <span id="footer-name"></span></span>
+      <span><span data-i18n="updated">Last updated:</span> <span id="updated"></span></span>
+    </footer>
+  </main>
+</body>
+</html>
+
